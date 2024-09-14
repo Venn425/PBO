@@ -1,0 +1,32 @@
+package PERTEMUAN_01;
+
+import java.util.Scanner;
+
+public class Latihan_08 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		String nama, kls;
+		int  ipk, nim, sem;
+		
+		System.out.println("Data Mahasiswa: ");
+		System.out.print("NPM: ");
+			nim = input.nextInt();
+		System.out.print("Nama Lengkap: ");
+			nama = input.next();
+		System.out.print("Nama Kelas: ");
+			kls = input.next();
+		System.out.print("Semester: ");
+			sem = input.nextInt();
+		System.out.print("IPK: ");
+			ipk = input.nextInt();
+		
+		System.out.println("\nNPM: " + nim);
+		System.out.println("Nama Lengkap: " + nama);
+		System.out.println("Nama Kelas: " + kls);
+		System.out.println("Semester: " + sem);
+		System.out.println("IPK: " + ipk);
+		
+		input.close();
+	}
+}

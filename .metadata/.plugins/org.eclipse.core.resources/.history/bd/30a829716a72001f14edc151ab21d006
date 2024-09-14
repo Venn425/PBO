@@ -1,0 +1,26 @@
+package PERTEMUAN_01;
+
+import java.util.Scanner;
+
+public class Latihan_02 {
+	
+	static float jari, tinggi;
+	
+	public void angka() {
+		System.out.print("Masukkan Jari - Jari: ");
+		try (Scanner input = new Scanner(System.in)){
+		jari = input.nextFloat();
+		}
+	
+		System.out.print("Masukkan Tinggi: ");
+		try (Scanner input2 = new Scanner(System.in)){
+		tinggi = input2.nextFloat();
+		}
+	
+	public static void main(String[] args) {
+		System.out.println("Program Menghitung Volume");
+		
+		Latihan_02.angka();
+		
+	}
+}

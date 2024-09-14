@@ -1,0 +1,29 @@
+package PERTEMUAN_01;
+
+import java.util.Scanner;
+import java.time.LocalDate;
+
+public class Latihan_04 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("====================================================================");
+		System.out.println("\t\t\t TOKO SERBAGUNA IBIK");
+		System.out.println("====================================================================");
+		
+		System.out.println("Masukkan jumlah produk yang dibeli: ");
+		int jumlah = input.nextInt();
+		System.out.println("\n");
+		
+		LocalDate waktu = LocalDate.now();
+        System.out.println(waktu);
+        
+        System.out.println("ITEM \t QTY \t HARGA \t TOTAL");
+        System.out.println("====================================================================");
+        System.out.println("ROTI ENAK \t" + jumlah + "\t RP 6.300,- \t" + (jumlah * 6300));
+        
+		
+		
+		
+	}
+}
