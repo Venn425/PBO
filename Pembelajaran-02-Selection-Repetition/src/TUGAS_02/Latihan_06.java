@@ -21,7 +21,7 @@ public class Latihan_06 {
 			System.out.println("Anda memesan Nasi Goreng dengan harga Rp. 22.000,-");
 			break;
 		case 2:
-			System.out.println("Anda memesan Bubur Aya dengan harga Rp. 15.000,-");
+			System.out.println("Anda memesan Bubur Ayam dengan harga Rp. 15.000,-");
 			break;
 		case 3:
 			System.out.println("Anda memesan Soto Ayam dengan harga Rp. 25.000,-");

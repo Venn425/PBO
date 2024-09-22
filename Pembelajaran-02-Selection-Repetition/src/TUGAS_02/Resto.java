@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Resto {
 	private long harga;
 
-    public void pilihMenu() {
+    public void chooseMenu() {
         Scanner input = new Scanner(System.in);
         int pilihan;
 
@@ -16,7 +16,7 @@ public class Resto {
         System.out.print("Pilihan Menu: ");
         pilihan = input.nextInt();
 
-        long hargaMenu = getHarga(pilihan);
+        long hargaMenu = getPrices(pilihan);
 
         if (hargaMenu != -1) {
             System.out.println("Harga Menu: Rp. " + hargaMenu + ",-");
@@ -25,7 +25,7 @@ public class Resto {
         }
     }
 
-    private long getHarga(int menu) {
+    private long getPrices(int menu) {
         switch (menu) {
             case 1:
                 harga = 22000;

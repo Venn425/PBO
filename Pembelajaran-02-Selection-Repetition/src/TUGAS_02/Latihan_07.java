@@ -9,7 +9,7 @@ public class Latihan_07 {
         char ulang;
 
         do {
-            menu.pilihMenu();
+            menu.chooseMenu();
             System.out.print("Apakah anda akan memesan kembali? (y/n): ");
             ulang = input.next().charAt(0);
 
