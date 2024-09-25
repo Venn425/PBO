@@ -26,7 +26,7 @@ public class Latihan_04 {
 		continue;
 	}
 	if(fullName.trim().isEmpty()) {
-		jop.showMessageDialog(null, "Nama tidak boleh kosong", "Error", jop.WARNING_MESSAGE);
+		jop.showMessageDialog(null, "Nama tidak boleh kosong", "Error", jop.ERROR_MESSAGE);
 		continue;
 	}
 	
@@ -36,11 +36,11 @@ public class Latihan_04 {
 			continue;
 		}
 		if(address.trim().isEmpty()) {
-			jop.showMessageDialog(null, "Alamat tidak boleh kosong", "Error", jop.WARNING_MESSAGE);
+			jop.showMessageDialog(null, "Alamat tidak boleh kosong", "Error", jop.ERROR_MESSAGE);
 			continue;
 		}
 		if(address.length() > 10) {
-			jop.showMessageDialog(null, "Inputan tidak boleh lebih dari 10 karakter", "Error", jop.WARNING_MESSAGE);
+			jop.showMessageDialog(null, "Inputan tidak boleh lebih dari 10 karakter", "Error", jop.ERROR_MESSAGE);
 			continue;
 		}
 
@@ -50,14 +50,14 @@ public class Latihan_04 {
 		continue;
 	}
 	if(ageSTR.trim().isEmpty()) {
-		jop.showMessageDialog(null, "Umur tidak boleh kosong", "Error", jop.WARNING_MESSAGE);
+		jop.showMessageDialog(null, "Umur tidak boleh kosong", "Error", jop.ERROR_MESSAGE);
 		continue;
 	}
 
 	try {
 		age = Integer.parseInt(ageSTR);
 	}catch(NumberFormatException e) {
-		jop.showMessageDialog(null, "Inputan Harus berupa angka", "Error", jop.WARNING_MESSAGE);
+		jop.showMessageDialog(null, "Inputan Harus berupa angka", "Error", jop.ERROR_MESSAGE);
 		continue;
 	}
 	
