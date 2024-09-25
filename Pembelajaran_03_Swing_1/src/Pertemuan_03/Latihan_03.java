@@ -18,7 +18,6 @@ public class Latihan_03 {
 		
 		String fullName, address, ageSTR;
 		int age, confirmEX;
-		boolean isValid;
 		
 		do {
 		fullName = jop.showInputDialog(null, "FullName:");
@@ -61,20 +60,10 @@ public class Latihan_03 {
 			jop.showMessageDialog(null, "Inputan Harus berupa angka", "Error", jop.WARNING_MESSAGE);
 			continue;
 		}
-		
-			bio.setBiodata(fullName, address, age);
-			bio.getBiodata();
-	         
-	         confirmEX = jop.showConfirmDialog(null, "Apakah Anda yakin ingin keluar?", "Konfirmasi Keluar", JOptionPane.OK_CANCEL_OPTION);
-	         if (confirmEX == JOptionPane.OK_OPTION) {
-	        	 break;
-	         }
-	        	 if(confirmEX == JOptionPane.CLOSED_OPTION) {
-	        		 break;
-	        	 }
-	        	 
-         jop.showMessageDialog(null, "Silakan masukkan data lagi.", "Informasi", JOptionPane.INFORMATION_MESSAGE);
+		break;
 		}while(true);
 		
+		bio.setBiodata(fullName, address, age);
+		bio.getBiodata();
 	}
 }
