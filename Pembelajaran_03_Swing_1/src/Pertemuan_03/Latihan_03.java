@@ -1,4 +1,4 @@
-package Pembelajaran_3_Swing_1;
+package Pertemuan_03;
 
 import javax.swing.JOptionPane;
 

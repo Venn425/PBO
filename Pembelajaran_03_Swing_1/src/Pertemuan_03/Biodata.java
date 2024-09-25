@@ -1,4 +1,4 @@
-package Pembelajaran_3_Swing_1;
+package Pertemuan_03;
 
 import javax.swing.JOptionPane;
 
@@ -19,6 +19,5 @@ public class Biodata {
 						+ "Age: " + age + "\n"; 
 		
 		jop.showMessageDialog(null, messages, "Biodata", jop.INFORMATION_MESSAGE);
-		
 	}
 }
