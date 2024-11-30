@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Steven Gyasi\OneDrive\Dokumen\Steven Gyasi\SEMESTER 3\ECLIPSE\perpus\src"/>
 			<item value="C:\Users\Steven Gyasi\OneDrive\Dokumen\Steven Gyasi\ECLIPSE\Praktikum-01-Runtunan\src\PERTEMUAN_01"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -44,10 +45,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.ibik.pbo.Pembelajaran"/>
+			<item value="PBO-232310025-MAVEN"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="PBO-232310025-MAVEN"/>
+			<item value="Pertemuan6"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -60,5 +65,9 @@
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>
