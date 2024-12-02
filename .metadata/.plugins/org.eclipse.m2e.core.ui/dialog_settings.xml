@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Steven Gyasi\OneDrive\Dokumen\Steven Gyasi\SEMESTER 3\ECLIPSE\perpus\pom.xml"/>
 			<item value="C:\Users\Steven Gyasi\OneDrive\Dokumen\Steven Gyasi\SEMESTER 3\ECLIPSE\perpus\src"/>
 			<item value="C:\Users\Steven Gyasi\OneDrive\Dokumen\Steven Gyasi\ECLIPSE\Praktikum-01-Runtunan\src\PERTEMUAN_01"/>
 		</list>
@@ -45,14 +46,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.ibik.pbo.Pembelajaran"/>
-			<item value="PBO-232310025-MAVEN"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="PBO-232310025-MAVEN"/>
-			<item value="Pertemuan6"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -69,5 +66,20 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Steven Gyasi\OneDrive\Dokumen\Steven Gyasi\SEMESTER 3\ECLIPSE\PBO-NPM-Pembelajaran-7"/>
+			<item value="C:\Users\Steven Gyasi\OneDrive\Dokumen\Steven Gyasi\SEMESTER 3\ECLIPSE\PBO-232310025-Pembelajaran-7"/>
+			<item value="C:\Users\Steven Gyasi\OneDrive\Dokumen\Steven Gyasi\SEMESTER 3\ECLIPSE\project-name"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>

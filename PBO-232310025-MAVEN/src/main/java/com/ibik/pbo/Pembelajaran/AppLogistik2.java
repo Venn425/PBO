@@ -3,14 +3,14 @@ package com.ibik.pbo.Pembelajaran;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
-class Resi {
+class Resii {
     private String namaPengirim;
     private String namaPenerima;
     private double beratBarang;
     private double jarakTempuh;
     private double totalBiaya;
 
-    public Resi(String namaPengirim, double beratBarang, double jarakTempuh, double totalBiaya) {
+    public Resii(String namaPengirim, double beratBarang, double jarakTempuh, double totalBiaya) {
         this.namaPengirim = namaPengirim;
         this.beratBarang = beratBarang;
         this.jarakTempuh = jarakTempuh;
@@ -37,7 +37,7 @@ class Resi {
 public class AppLogistik2 {
     public static void main(String[] args) {
         JOptionPane jop = new JOptionPane();
-        ArrayList<Resi> daftarResi = new ArrayList<>();
+        ArrayList<Resii> daftarResi = new ArrayList<>();
         
         while (true) {
         int pil = Integer.parseInt(jop.showInputDialog(null, "Pilih Menu:\n1. Buat Pesanan\n2. Lacak Pesanan", jop.QUESTION_MESSAGE));
@@ -104,7 +104,7 @@ public class AppLogistik2 {
             double biayaJarak = Math.ceil(jarakTempuh / 10) * 8000;
             double totalBiaya = biayaBerat + biayaJarak;
 
-            daftarResi.add(new Resi(namaPengirim, beratBarang, jarakTempuh, totalBiaya));
+            daftarResi.add(new Resii(namaPengirim, beratBarang, jarakTempuh, totalBiaya));
 
             jop.showMessageDialog(null, "Ringkasan Pengiriman:\n" + 
                                        "Nama Pengirim: " + namaPengirim + "\n" +  
@@ -122,7 +122,7 @@ public class AppLogistik2 {
         String semuaResi = "";
         
         
-        for (Resi resi : daftarResi) {
+        for (Resii resi : daftarResi) {
         semuaResi += "Nama Pengirim: " + resi.getNamaPengirim() + "\n" +
         "Berat Barang: " + resi.getBeratBarang() + " gr\n" +
         "Jarak Tempuh: " + resi.getJarakTempuh() + " km\n" +
