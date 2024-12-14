@@ -1,4 +1,4 @@
-package Quiz2.PBO.2323210025;
+package com.ibik.quiz;
 
 /**
  * Hello world!
