@@ -35,6 +35,8 @@
     <fullyQualifiedTypeName name="javax.swing.JButton"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
-    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="com.ibik.quiz.form"/>
+    <fullyQualifiedTypeName name="com.ibik.pbo.Pembelajaran.Form"/>
+    <fullyQualifiedTypeName name="com.ibik.pbo.Pembelajaran.Masuk"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 </qualifiedTypeNameHistroy>
